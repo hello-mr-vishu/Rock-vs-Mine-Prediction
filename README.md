@@ -34,7 +34,7 @@ R - the object is rock
 
 M - the object is mine
 
-Machine learning - 
+### Machine learning
 
 Machine learning enables the processing of sonar signals and target detection. Machine Learning is a subset of Artificial Intelligence. This involves the development of computer systems that are able to learn by using algorithms and statistical measures to study data and draw results from it. Machine learning is basically an integration of computer systems, statistical mathematics and data.
 
@@ -53,13 +53,13 @@ Logistic regression (or sigmoid function or logit function) is a type of regress
 
 Python libraries used in the project - 
 
-NumPy  
+#### NumPy  
 
 It is a python library used for working with arrays. It has functions for working in the domain of linear algebra, fourier transform, and matrices. It is the fundamental package for scientific computing with python. NumPy stands for numerical python. 
 
 NumPy is preferred because it is faster than traditional python lists. It has supporting functions that make working with ndarray very easy. Arrays are frequently used where speed and resources are very important. NumPy arrays are faster because it is stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently. This is locality of reference in computer science. 
 
-Pandas - 
+#### Pandas  
 
 Pandas is made for working with relational or labelled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. 
 
@@ -74,11 +74,11 @@ It has a lot of advantages like -
 
 Pandas is built on top of NumPy library. That means that a lot of structures of NumPy are used or replicated in Pandas. The data produced by pandas are often used as input for plotting functions of Matplotlib, statistical analysis in SciPy, and machine learning algorithms in Scikit-learn. 
 
-Scikit-Learn - 
+#### Scikit-Learn
 
 It provides efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction. It has numerous machine learning, pre-processing, cross validation, and visualization algorithms. 
 
-Exploratory data analysis - 
+### Exploratory data analysis 
 
 ‘describe()’ method returns description of data in DataFrame. It tells us the following information for each column - 
 - Count - number of non-empty values
@@ -104,7 +104,7 @@ Following are some of the ways of handling it -
 3. Synthetic sampling - synthetically manufacture observations of unbalanced classes which are similar to the existing using nearest neighbour classification. The problem comes when the number of observations are of extremely rare class. 
 
 
-Train-test split - 
+### Train-test split
 
 The entire dataset is split into training dataset and testing dataset. Usually, 80-20 or 70-30 split is done. The train-test split is used to prevent the model from overfitting and to estimate the performance of prediction-based algorithms. We need to split the dataset to evaluate how well our machine learning model performs. The train set is used to fit the model, and statistics of training set are known. Test set is for predictions. 
 
@@ -118,7 +118,7 @@ Parameters -
 5. shuffle: This parameter is used to shuffle the data before splitting. Its default value is true.
 6. stratify: This parameter is used to split the data in a stratified fashion.
 
-Model evaluation - 
+### Model evaluation
 
 Model evaluation is done to test the performance of machine learning model. It is done to determine whether the model is a good fit for the input dataset or not. 
 
